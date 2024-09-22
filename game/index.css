@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h2{
+	background-color: lightslategrey;
+	color: aliceblue;
+	height: 3rem;
+	line-height: 3rem;
+}
+
+.Choice{
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.Choice:hover{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.Choice{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 6rem;
+}
+
+h1{
+	
+}
